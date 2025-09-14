@@ -28,3 +28,9 @@ Fitur utama yang tersedia antara lain:
 4. **Hapus Koleksi**: Menghapus data koleksi dari daftar
 5. **Cari Koleksi**: Mencari data koleksi berdasarkan nama alat.
 6. **Keluar Program**: Menghentikan jalannya program
+
+# Penggunaan Program
+
+<details>
+<summary><h3>Menu Koleksi Alat Makeup</h3></summary>
+
