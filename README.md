@@ -48,6 +48,8 @@ Dengan pemisahan ini, struktur kode menjadi lebih rapi, mudah dipelihara, dan se
 <details>
 <summary><h3>Menu Koleksi Alat Makeup</h3></summary>
 
+<img width="318" height="178" alt="image" src="https://github.com/user-attachments/assets/0f447f12-3ad8-47d9-907e-63f4739b898e" />
+
 Saat program pertama kali dijalankan, sistem akan langsung menampilkan menu utama yang berisi daftar pilihan menu. Pengguna diminta untuk memasukkan nomor menu sesuai dengan pilihan yang diinginkan. Setelah itu, program akan menjalankan perintah sesuai input pengguna dan kemudian kembali menampilkan menu utama, hingga pengguna memilih opsi Keluar untuk menghentikan program.
 
 
