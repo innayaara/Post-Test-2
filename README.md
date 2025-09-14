@@ -74,6 +74,10 @@ Jika pengguna memilih opsi 2. Lihat Koleksi, program akan menampilkan seluruh da
 
 Jika pengguna memilih opsi 3. Ubah Koleksi, maka program akan meminta nomor koleksi yang ingin diubah. Setelah itu, pengguna dapat memasukkan data baru untuk mengganti data lama. Setelah sudah memasukkan data baru, pengguna bisa mengecek kembali dengan opsi 2. Lihat Koleksi.
 
+<img width="649" height="325" alt="image" src="https://github.com/user-attachments/assets/f171e1a5-256e-49fc-89fc-b6135c31b6fd" />
+
+Apabila pengguna memasukkan nomor koleksi yang tidak tersedia, program akan menampilkan pesan "Nomor tidak valid!" sebagai bentuk validasi agar pengguna tidak bisa mengubah koleksi yang tidak ada.
+
 ## 4. Hapus Koleksi
 
 <img width="658" height="563" alt="image" src="https://github.com/user-attachments/assets/7219cd8a-7727-4abd-96cb-1011147df63e" />
