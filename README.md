@@ -25,6 +25,8 @@ Fitur utama yang tersedia antara lain:
 
 # Struktur Packages 
 
+<img width="560" height="182" alt="image" src="https://github.com/user-attachments/assets/2c2cbe87-2d13-4602-8730-0b66e9e21077" />
+
 Program ini menggunakan Model-View-Controller (MVC):
 
 * **model**: Menyimpan struktur data berupa class Makeup dengan atribut dan constructor.
@@ -45,4 +47,8 @@ Dengan pemisahan ini, struktur kode menjadi lebih rapi, mudah dipelihara, dan se
 
 <details>
 <summary><h3>Menu Koleksi Alat Makeup</h3></summary>
+
+Saat program pertama kali dijalankan, sistem akan langsung menampilkan menu utama yang berisi daftar pilihan menu. Pengguna diminta untuk memasukkan nomor menu sesuai dengan pilihan yang diinginkan. Setelah itu, program akan menjalankan perintah sesuai input pengguna dan kemudian kembali menampilkan menu utama, hingga pengguna memilih opsi Keluar untuk menghentikan program.
+
+
 
