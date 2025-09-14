@@ -28,10 +28,15 @@ Fitur utama yang tersedia antara lain:
 Program ini menggunakan Model-View-Controller (MVC):
 
 * **model**: Menyimpan struktur data berupa class Makeup dengan atribut dan constructor.
+
   AlatMakeup.java: mendefinisikan properties (nama, jenis, merk, jumlah) dengan constructor dan getter/setter.
+  
 * **service**: Berisi logika bisnis CRUD dan fitur tambahan seperti validasi input dan pencarian.
+
   KoleksiService.java: mengelola list koleksi makeup, menambahkan, menampilkan, memperbarui, menghapus, dan mencari data.
+  
 * **main**: Menyimpan class Main yang menampilkan menu dan menghubungkan pengguna dengan service.
+
   Main.java: Menampilkan menu, menerima input dari pengguna, memanggil method pada KoleksiService
 
 Dengan pemisahan ini, struktur kode menjadi lebih rapi, mudah dipelihara, dan sesuai konsep MVC.
