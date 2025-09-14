@@ -7,13 +7,7 @@
 ## 📄Deskripsi Program
 Program ini adalah sebuah sistem manajemen koleksi alat makeup berbasis Java yang menerapkan konsep Object-Oriented Program (OOP). Program memiliki satu role yaitu pengguna, yang dapat melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data koleksi alat makeup terhadap data koleksi alat makeup. Data yang dikelola mencakup nama alat, jenis, merk, dan jumlah.
 
-Struktur program menggunakan packages sesuai dengan fungsinya:
-
-* **model**: menyimpan struktur data berupa class Makeup dengan atribut dan constructor.
-* **service**: berisi logika bisnis CRUD dan fitur tambahan seperti validasi input dan pencarian.
-* **main**: menyimpan class Main yang menampilkan menu dan menghubungkan pengguna dengan service.
-
-Program ini juga menerapkan:
+Program ini menerapkan:
 
 * **Constructor** untuk insialisasi objek
 * **Access modifier (private & public)**
@@ -28,6 +22,19 @@ Fitur utama yang tersedia antara lain:
 4. **Hapus Koleksi**: Menghapus data koleksi dari daftar
 5. **Cari Koleksi**: Mencari data koleksi berdasarkan nama alat.
 6. **Keluar Program**: Menghentikan jalannya program
+
+# Struktur Packages 
+
+Program ini menggunakan Model-View-Controller (MVC):
+
+* **model**: Menyimpan struktur data berupa class Makeup dengan atribut dan constructor.
+  AlatMakeup.java: mendefinisikan properties (nama, jenis, merk, jumlah) dengan constructor dan getter/setter.
+* **service**: Berisi logika bisnis CRUD dan fitur tambahan seperti validasi input dan pencarian.
+  KoleksiService.java: mengelola list koleksi makeup, menambahkan, menampilkan, memperbarui, menghapus, dan mencari data.
+* **main**: Menyimpan class Main yang menampilkan menu dan menghubungkan pengguna dengan service.
+  Main.java: Menampilkan menu, menerima input dari pengguna, memanggil method pada KoleksiService
+
+Dengan pemisahan ini, struktur kode menjadi lebih rapi, mudah dipelihara, dan sesuai konsep MVC.
 
 # Penggunaan Program
 
