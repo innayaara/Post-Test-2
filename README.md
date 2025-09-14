@@ -64,7 +64,7 @@ Saat pengguna diminta memasukkan Nama Alat Makeup, pengguna menekan enter tanpa 
 
 ## 2. Lihat Koleksi
 
-<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/a122f732-f6ae-43ad-acb9-cd1474e9c79f" />
+<img width="648" height="291" alt="image" src="https://github.com/user-attachments/assets/05f1adac-5451-46a9-9901-6cd1479c5be6" />
 
 Jika pengguna memilih opsi 2. Lihat Koleksi, program akan menampilkan seluruh daftar alat makeup yang sudah tersimpan.
 
